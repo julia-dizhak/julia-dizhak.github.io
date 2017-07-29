@@ -1,10 +1,15 @@
+var aboutMe = document.getElementById("about-me"),
+    nameElement = document.getElementsByClassName("name")[0],
+    name = nameElement.innerHTML,
+
+    foxElement = document.getElementById("fox"),
+    fox = " =^.^= ";
+
 // Draw as many fox as you want!
-
-var fox = document.getElementById("fox");
-
 var drawFoxes = function (howManyTimes) {
   for (var i = 0; i < howManyTimes; i++) {
-    console.log(i + " =^.^= " + "Hello");
+    foxElement.innerHTML = fox;
+    console.log(i + fox + "Hello, my name is Julia Dizhak");
   }
 }
 

@@ -1,7 +1,11 @@
-var randomAdjectives = ["young", "professional", "funny", "pretty"],
-    adjectivesLength = randomAdjectives.length,
+// a function to pick random word
+var pickRandomWord = function(words) {
+  return words[Math.floor(Math.random() * words.length)];
+};
+
+var randomAdjectives = ["young", "professional", "sports", "pretty"],
     adjectiveElement = document.getElementById("adjective"),
-    randomAdjective = randomAdjectives[Math.floor(Math.random() * adjectivesLength)],
+    oneRandomAdjective = pickRandomWord(randomAdjectives),
 
     randomWhatILoves = [
       "dogs",
@@ -12,9 +16,8 @@ var randomAdjectives = ["young", "professional", "funny", "pretty"],
       "summer time",
       "a good dry wine"
     ],
-    whatILovesLength = randomWhatILoves.length,
     whatILoveElement = document.getElementById("love"),
-    randomWhatILove = randomWhatILoves[Math.floor(Math.random() * whatILovesLength)]
+    oneRandomWhatILove = pickRandomWord(randomWhatILoves),
 
     randomPlaces = [
       "Zurich",
@@ -26,11 +29,10 @@ var randomAdjectives = ["young", "professional", "funny", "pretty"],
       "Rivne",
       "Nepal"
     ],
-    placesLength = randomPlaces.length,
     whereILiveElement = document.getElementById("live"),
-    randomWhereILive = randomPlaces[Math.floor(Math.random() * placesLength)];
+    oneRandomWhereILive = pickRandomWord(randomPlaces);
 
 // Output in DOM element
-adjectiveElement.innerHTML = randomAdjective;
-whatILoveElement.innerHTML = randomWhatILove;
-whereILiveElement.innerHTML = randomWhereILive;
+adjectiveElement.innerHTML = oneRandomAdjective;
+whatILoveElement.innerHTML = oneRandomWhatILove;
+whereILiveElement.innerHTML = oneRandomWhereILive;

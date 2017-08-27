@@ -48,12 +48,9 @@ var randomAdjectives = ["young", "professional", "sports", "pretty"],
 
 if ( areArraysSame(randomAdjectives, randomWhatILoves) != true  ) {
   var oneRandomAdjective = pickRandomWord(randomAdjectives);
-  console.log(oneRandomAdjective);
 }
 
 // Output in DOM element
 adjectiveElement.innerHTML = oneRandomAdjective;
 whatILoveElement.innerHTML = oneRandomWhatILove;
 whereILiveElement.innerHTML = oneRandomWhereILive;
-
-debugger;

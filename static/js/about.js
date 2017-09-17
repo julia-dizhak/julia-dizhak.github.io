@@ -16,7 +16,7 @@ var areArraysSame = function(arr1, arr2) {
   }
 
   return true;
-}
+};
 
 var randomAdjectives = ["young", "professional", "sports", "pretty"],
     adjectiveElement = document.getElementById("adjective"),

@@ -1,6 +1,6 @@
-# Github profile from Julia Dizhak
+# Julia Dizhak github profile.
 
-Summary of github profile.
+Summary from github profile.
 
 ## License
 

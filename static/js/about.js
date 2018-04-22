@@ -18,30 +18,30 @@ var areArraysSame = function(arr1, arr2) {
   return true;
 };
 
-var randomAdjectives = ["young", "professional", "sports", "pretty"],
+var randomAdjectives = ['young', 'professional'],
     adjectiveElement = document.getElementById("adjective"),
 
     randomWhatILoves = [
-      "dogs",
-      "chocolate",
-      "coffee",
-      "travelling",
-      "sea and oceans",
-      "summer time",
-      "a good dry wine"
+      'dogs',
+      'chocolate',
+      'coffee',
+      'travelling',
+      'sea and oceans',
+      'summer time',
+      'a good dry wine'
     ],
     whatILoveElement = document.getElementById("love"),
     oneRandomWhatILove = pickRandomWord(randomWhatILoves),
 
     randomPlaces = [
-      "Zurich",
-      "Kiyv",
-      "Kerch",
-      "Simferopol",
-      "Sevastopol",
-      "Crimea",
-      "Rivne",
-      "Nepal"
+      'Zurich',
+      'Kiyv',
+      'Kerch',
+      'Simferopol',
+      'Sevastopol',
+      'Crimea',
+      'Rivne',
+      'Nepal'
     ],
     whereILiveElement = document.getElementById("live"),
     oneRandomWhereILive = pickRandomWord(randomPlaces);

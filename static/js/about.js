@@ -1,10 +1,10 @@
 // a function to pick random word
-var pickRandomWord = function(words) {
+let pickRandomWord = function(words) {
   return words[Math.floor(Math.random() * words.length)];
 };
 
 // a function to check if arrays are the same
-var areArraysSame = function(arr1, arr2) {
+let areArraysSame = function(arr1, arr2) {
   if (arr1.length != arr2.length) {
     return false;
   }
@@ -18,8 +18,8 @@ var areArraysSame = function(arr1, arr2) {
   return true;
 };
 
-var randomAdjectives = ['young', 'professional'],
-    adjectiveElement = document.getElementById("adjective"),
+let randomAdjectives = ['passion'],
+    adjectiveElement = document.getElementById('adjective'),
 
     randomWhatILoves = [
       'dogs',
@@ -30,7 +30,7 @@ var randomAdjectives = ['young', 'professional'],
       'summer time',
       'a good dry wine'
     ],
-    whatILoveElement = document.getElementById("love"),
+    whatILoveElement = document.getElementById('love'),
     oneRandomWhatILove = pickRandomWord(randomWhatILoves),
 
     randomPlaces = [
@@ -43,7 +43,7 @@ var randomAdjectives = ['young', 'professional'],
       'Rivne',
       'Nepal'
     ],
-    whereILiveElement = document.getElementById("live"),
+    whereILiveElement = document.getElementById('live'),
     oneRandomWhereILive = pickRandomWord(randomPlaces);
 
 if ( areArraysSame(randomAdjectives, randomWhatILoves) != true  ) {

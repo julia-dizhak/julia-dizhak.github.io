@@ -1,4 +1,4 @@
-# Summary from github profile.
+# Summary from github profile
 * js: projects build by react, angular
 * example of design pattern library
 * presentations

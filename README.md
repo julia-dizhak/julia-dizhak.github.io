@@ -1,5 +1,5 @@
-# Summary from github profile
-* js: projects build by react, angular
+# Github page
+* js: projects build by react / angular etc
 * example of design pattern library
 * presentations
 * canvas, svg
@@ -7,7 +7,3 @@
 * english skills
 * meetups
 * books
-
-## License
-
-The code in this repository is distributed under the terms of the MIT license.
